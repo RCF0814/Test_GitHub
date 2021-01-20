@@ -5,3 +5,5 @@ c <- a+b
 
 dt <- data.frame(x=rnorm(10))
 write.csv(file="test_data.csv",dt,row.names = F)
+dt$y <- 2*dt$x
+dt
